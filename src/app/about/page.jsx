@@ -21,7 +21,7 @@ function About() {
             <div className="grid lg:grid-cols-2 h-fit relative">
                 <div className="text-center  flex flex-col justify-center lg:text-left xl:px-10 ">
                     <h2 className="font-bold text-4xl py-4 lg:py-4 lg:text-5xl text-white">
-                        Let's get know <br /> about me closer
+                        Let&apos;s get know <br /> about me closer
                     </h2>
                     <p className="text-gray-100 font-bold text-md md:px-10 lg:px-0 lg:text-base">
                         Noman is a full-stack software developer specializing in modern,

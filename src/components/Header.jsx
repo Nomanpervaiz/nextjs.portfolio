@@ -46,7 +46,7 @@ function Header() {
             Full Stack Web Developer
           </h1>
           <h2 className="text-2xl md:text-2xl lg:px-32 text-center py-1">
-            I'm Noman, a Full-Stack Web Developer passionate about crafting
+            I&apos;m Noman, a Full-Stack Web Developer passionate about crafting
             modern, responsive, and seamless websites that help businesses
             thrive in the digital world.
           </h2>
