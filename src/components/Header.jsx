@@ -19,7 +19,7 @@ function Header() {
       <div className="h-full px-2 lg:px-36 container mx-auto text-white">
         <div className="flex flex-col h-full justify-center items-center">
           <div className="md:text-4xl p-1 text-2xl font-bold">
-            I'm
+          I&apos;m
             <span className="px-2">
 
              <Link
