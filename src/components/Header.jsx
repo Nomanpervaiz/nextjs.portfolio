@@ -16,7 +16,7 @@ function Header() {
         priority={true}
       />
 
-      <div className="h-full px-2 lg:px-36 container mx-auto text-white">
+      <div className="h-full px-6 lg:px-36 container mx-auto text-white">
         <div className="flex flex-col h-full justify-center items-center">
           <div className="md:text-4xl p-1 text-2xl font-bold">
           I&apos;m
@@ -42,7 +42,7 @@ function Header() {
             </Link>
                 </span>
           </div>
-          <h1 className="text-3xl md:text-5xl text-center font-bold py-2">
+          <h1 className="text-3xl md:text-5xl  text-center font-bold py-2">
             Full Stack Web Developer
           </h1>
           <h2 className="text-2xl md:text-2xl lg:px-32 text-center py-1">
