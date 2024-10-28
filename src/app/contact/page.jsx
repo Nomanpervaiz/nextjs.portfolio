@@ -1,4 +1,5 @@
-import { Spotlight } from "@/components/ui/Spotlight"
+import { Spotlight } from "@/components/ui/SpotLight"
+
 
 function Contact() {
   return (

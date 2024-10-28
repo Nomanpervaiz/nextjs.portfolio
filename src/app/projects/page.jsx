@@ -1,4 +1,4 @@
-import { Spotlight } from "@/components/ui/Spotlight";
+import { Spotlight } from "@/components/ui/SpotLight";
 import MapCard from "@/components/MapCard";
 
 function Projects() {

@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { Spotlight } from "./ui/Spotlight";
-import { Button } from "./ui/moving-border";
+import { Spotlight } from "../components/ui/SpotLight";
+import { Button } from "../components/ui/moving-border";
 
 
 function Header() {
