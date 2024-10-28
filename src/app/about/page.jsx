@@ -1,6 +1,6 @@
 import Image from "next/image";
 import mySelf from "@/assets/duplicateme.jpg";
-import { Spotlight } from "@/components/ui/Spotlight";
+import { Spotlight } from "@/components/ui/SpotLight"
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 function About() {
