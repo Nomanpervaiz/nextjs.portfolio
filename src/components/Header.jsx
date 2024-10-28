@@ -1,48 +1,48 @@
+"use client";
 import React from "react";
-import { Button } from "./ui/button";
-import vectorImg from "../assets/Vector 8.png";
-import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
+import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
+
 
 function Header() {
   return (
-    <section className="bg-black/[0.89] relative py-12 lg:py-28 ">
-      <Image
-        src={vectorImg}
-        alt="Decorative Vector Background"
-        className="absolute lg:right-60 right-0 top-0 lg:w-2/5 w-full "
-        layout="intrinsic"
-        priority={true}
-      />
+    <section className=" antialiased py-12 lg:py-28   ">
+      <div
+        className="h-full  px-6 lg:px-36 relative container mx-auto text-white"
+      >
+        <Spotlight
+          className="lg:-top-40 lg:right-0  md:-top-52 md:-right-72 -top-40 "
+          fill="white"
+        />
 
-      <div className="h-full px-6 lg:px-36 container mx-auto text-white">
         <div className="flex flex-col h-full justify-center items-center">
-          <div className="md:text-4xl p-1 text-2xl font-bold">
-          I&apos;m
+          <div
+           className="md:text-4xl lg:text-5xl p-1 text-2xl font-bold">
+            I&apos;m
             <span className="px-2">
-
-             <Link
-              className="text-md md:text-4xl text-xl font-black text-white drop-shadow-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:text-gray-200 hover:animate-pulse relative group"
-              href="/"
+              <span
+                className="text-md md:text-4xl lg:text-5xl text-1xl font-black text-white drop-shadow-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:text-white relative group"
+                
               >
-             N
-              <span className="text-gray-400 drop-shadow-lg font-medium transition-all duration-500 ease-in-out group-hover:text-gray-300 group-hover:ml-1">
-                o
-              </span>
-              <span className="inline-block drop-shadow-lg transition-transform duration-500 ease-in-out group-hover:rotate-12">
-                m
-              </span>
-              <span className="inline-block drop-shadow-lg transition-transform duration-500 ease-in-out group-hover:-rotate-12">
-                a
-              </span>
-              <span className="inline-block drop-shadow-lg transition-transform duration-500 ease-in-out group-hover:rotate-6">
-                n
-              </span>
-            </Link>
+                N
+                <span className="text-orange-400 drop-shadow-lg font-medium transition-all duration-500 ease-in-out group-hover:text-gray-400 group-hover:ml-1">
+                  o
                 </span>
+                <span className="inline-block drop-shadow-lg transition-transform duration-500 ease-in-out group-hover:rotate-12">
+                  m
+                </span>
+                <span className="inline-block drop-shadow-lg transition-transform duration-500 ease-in-out group-hover:-rotate-12">
+                  a
+                </span>
+                <span className="inline-block drop-shadow-lg transition-transform duration-500 ease-in-out group-hover:rotate-6">
+                  n
+                </span>
+              </span>
+            </span>
           </div>
-          <h1 className="text-3xl md:text-5xl  text-center font-bold py-2">
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  text-center font-bold py-2">
             Full Stack Web Developer
           </h1>
           <h2 className="text-2xl md:text-2xl lg:px-32 text-center py-1">
@@ -51,9 +51,14 @@ function Header() {
             thrive in the digital world.
           </h2>
 
-          <Button className="py-4 px-6 md:py-6 md:px-8 my-10 rounded-full  bg-orange-400">
-            Explore Work <FaArrowRight />
-          </Button>
+          <div className="my-10">
+            <Button
+              borderRadius="1.75rem"
+              className={"bg-orange-400 text-white  "}
+            >
+              Explore Work <FaArrowRight className="mx-1" />
+            </Button>
+          </div>
         </div>
       </div>
     </section>

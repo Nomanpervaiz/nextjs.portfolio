@@ -4,9 +4,9 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className="text-gray-600 bg-black/[0.95] body-font">
-            <div className="container mx-auto pt-32">
-                <div className="h-32  lg:mx-24 xl:mx-32 mx-10 sm:mx-2 flex flex-col items-center border-b border-gray-400 ">
+        <footer className="text-gray-600 bg-grid-small-black z-10 bg-black/[0.5] body-font">
+            <div className="container  mx-auto pt-28">
+                <div className="h-40 lg:mx-24 xl:mx-32 mx-10 sm:mx-2 flex flex-col items-center border-b border-gray-400 ">
                     <h2 className="text-orange-400 font-semibold">Get In Touch With Me</h2>
                     <Link href="mailto:nomanpervaiz035@gmail.com" className="text-white underline sm:text-3xl py-2 font-semibold text-md">
                         nomanpervaiz035@gmail.com
@@ -25,7 +25,7 @@ function Footer() {
                 </div>
                 <div className="lg:mx-24 xl:mx-32 mx-10 sm:mx-2  border-b border-gray-400"></div>
             </div>
-            <div className="container lg:px-36 lg:py-8 py-6  mx-auto flex items-center sm:flex-row flex-col">
+            <div className="container  lg:px-36 lg:py-8 py-6  mx-auto flex items-center sm:flex-row flex-col">
                 <Link
                     className="text-md xl:text-xl md:text-xl font-black text-white drop-shadow-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:text-gray-200 hover:animate-pulse relative group"
                     href="/"

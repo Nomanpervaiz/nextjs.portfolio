@@ -13,10 +13,10 @@ export default function Navbar() {
   const isActive = (href) => pathname === href;
 
   return (
-    <header className=" bg-black/[0.89] h-20 flex justify-center w-full">
+    <header className="h-28 flex justify-center w-full">
       <nav
         aria-label="Global"
-        className=" flex z-10 fixed lg:w-3/5 lg:rounded-full shadow-2xl lg:bg-black/[0.90] container items-center lg:justify-center lg:p-8 lg:m-4 p-6 justify-between lg:px-4 "
+        className=" flex z-10 fixed lg:w-1/2 lg:rounded-full  lg:bg-black/[0.90] container items-center lg:justify-center lg:p-8 lg:my-10 p-6 justify-between lg:px-4 "
       >
             <div className="lg:hidden"
             onClick={()=>setMobileMenuOpen(false)}>
@@ -122,22 +122,25 @@ export default function Navbar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-6 py-10 flex flex-col">
                 <Link
-                  href="/"
-                  className={`text-md font-semibold ${
-                    isActive("/") ? "text-white" : "text-gray-400"
+                onClick={()=>setMobileMenuOpen(false)}
+                href="/"
+                className={`text-md font-semibold ${
+                  isActive("/") ? "text-white" : "text-gray-400"
                   } transition-colors duration-300`}
-                >
+                  >
                   Home
                 </Link>
                 <Link
+                  onClick={()=>setMobileMenuOpen(false)}
                   href="/projects"
                   className={`text-md font-semibold ${
                     isActive("/projects") ? "text-white" : "text-gray-400"
-                  } transition-colors duration-300`}
-                >
+                    } transition-colors duration-300`}
+                    >
                   Projects
                 </Link>
                 <Link
+                  onClick={()=>setMobileMenuOpen(false)}
                   href="/about"
                   className={`text-md font-semibold ${
                     isActive("/about") ? "text-white" : "text-gray-400"
@@ -146,6 +149,7 @@ export default function Navbar() {
                   About Me
                 </Link>
                 <Link
+                    onClick={()=>setMobileMenuOpen(false)}
                   href="/contact"
                   className={`text-md font-semibold ${
                     isActive("/contact") ? "text-white" : "text-gray-400"
