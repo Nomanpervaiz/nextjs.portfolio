@@ -14,7 +14,7 @@ function MapCard({limit ,prefix = "default"}) {
       workItems.map((workObj) => {
         return (
           <ThreeDCardDemo
-            keyId={`${prefix}-${workObj.id}`}
+            key={workObj.id}
             name={workObj.name}
             link={workObj.link}
             description={workObj.description}
