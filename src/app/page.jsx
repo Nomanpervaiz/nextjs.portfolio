@@ -1,5 +1,5 @@
+import AboutSection from "@/components/AboutSection";
 import Header from "@/components/Header";
-import AboutSection from "@/components/aboutSection";
 import ProjectSection from "@/components/ProjectSection";
 
 function Home() {
