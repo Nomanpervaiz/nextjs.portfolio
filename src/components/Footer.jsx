@@ -19,9 +19,6 @@ function Footer() {
                             </Link>
                         </span>
                     </div>
-
-
-
                 </div>
                 <div className="lg:mx-24 xl:mx-32 mx-10 sm:mx-2  border-b border-gray-400"></div>
             </div>
