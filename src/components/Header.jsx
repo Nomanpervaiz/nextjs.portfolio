@@ -3,9 +3,14 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Spotlight } from "../components/ui/SpotLight";
 import { Button } from "../components/ui/moving-border";
+import { useRouter } from "next/navigation";
 
 
 function Header() {
+  const router = useRouter()
+  const goToContact = ()=>{
+        router.push("/contact")
+  }
   return (
     <section className=" antialiased py-12 lg:py-28   ">
       <div
@@ -55,8 +60,9 @@ function Header() {
             <Button
               borderRadius="1.75rem"
               className={"bg-orange-400 text-white  "}
+              onClick={goToContact}
             >
-              Explore Work <FaArrowRight className="mx-1" />
+              Contact me<FaArrowRight className="mx-1" />
             </Button>
           </div>
         </div>

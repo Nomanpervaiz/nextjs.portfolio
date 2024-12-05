@@ -1,19 +1,34 @@
-'use client'
-import { useRef } from "react";
+"use client";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { useFollowPointer } from "./use-Follow-Pointer";
 
 export default function Pointer() {
   const ref = useRef(null);
   const { x, y } = useFollowPointer(ref);
-  return (
-    
+
+  const [currentScreen, setCurrentScreen] = useState(0);
+
+  useEffect(() => {
+    const updateScreenWidth = () => {
+      setCurrentScreen(window.innerWidth);
+    };
+    updateScreenWidth();
+    window.addEventListener("resize", updateScreenWidth);
+    return () => {
+      window.removeEventListener("resize", updateScreenWidth);
+    };
+  }, []);
+
+  console.log("Current screen width:", currentScreen);
+
+  return currentScreen > 800 ? (
     <motion.div
       ref={ref}
       className="w-10  h-10 rounded-full fixed pb-2  bg-transparent border-2 text-white font-bold items-center flex justify-center "
-      style={{ x, y, zIndex: -10 }}  
-      >.</motion.div>
-    
-    
-  )
+      style={{ x, y, zIndex: -10 }}
+    >
+      .
+    </motion.div>
+  ) : "";
 }
