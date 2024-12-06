@@ -4,8 +4,8 @@ import Link from "next/link"
 function Contact() {
   return (
     <section className="pt-10 pb-10 lg:pt-20 px-10 lg:px-36 min-h-screen text-white relative overflow-hidden">
-      <div className="absolute inset-0  z-0"></div>
-      <div className="container mx-auto relative z-10">
+      <div className="absolute inset-0 z-0"></div>
+      <div className="container mx-auto relative z-0">
         <div className="xl:px-10">
           <h1 className="text-4xl py-2 font-semibold lg:text-6xl">Contact Me</h1>
           <p className="text-gray-300">For Any Project Knock Us</p>

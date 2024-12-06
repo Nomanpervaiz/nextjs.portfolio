@@ -22,7 +22,6 @@ export function useFollowPointer(ref) {
     };
   }, []);
 
-  console.log("Current screen width:", currentScreen);
 
   useEffect(() => {
     if (!ref.current || currentScreen < 800) return; // Stop pointer effect if screen width < 650px

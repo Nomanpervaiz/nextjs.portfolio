@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import App from "./pointer";
 import Pointer from "./pointer";
+import ScrollHeight from "@/components/ScrollHeight";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
 
         <Navbar />
         <Pointer />
+      <ScrollHeight/>
         {children}
         <Footer />
 

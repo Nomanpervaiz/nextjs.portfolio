@@ -23,7 +23,7 @@ function Header() {
 
         <div className="flex flex-col h-full justify-center items-center">
           <div
-           className="md:text-4xl lg:text-5xl p-1 text-2xl font-bold">
+           className="md:text-4xl lg:text-5xl p-1 text-3xl font-bold">
             I&apos;m
             <span className="px-2">
               <span
@@ -47,13 +47,12 @@ function Header() {
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  text-center font-bold py-2">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl  text-center font-bold py-2">
             Full Stack Web Developer
           </h1>
-          <h2 className="text-2xl md:text-2xl lg:px-32 text-center py-1">
-            I&apos;m Noman, a Full-Stack Web Developer passionate about crafting
-            modern, responsive, and seamless websites that help businesses
-            thrive in the digital world.
+          <h2 className="text-xl md:text-2xl lg:px-32 text-center py-1">
+          A Full-Stack Web Developer committed to creating innovative, dynamic, and responsive websites. I develop digital solutions that improve user experiences, increase engagement, and enable organizations to succeed online. 
+
           </h2>
 
           <div className="my-10">

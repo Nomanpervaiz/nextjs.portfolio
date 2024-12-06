@@ -20,12 +20,11 @@ export default function Pointer() {
     };
   }, []);
 
-  console.log("Current screen width:", currentScreen);
 
   return currentScreen > 800 ? (
     <motion.div
       ref={ref}
-      className="w-10  h-10 rounded-full fixed pb-2  bg-transparent border-2 text-white font-bold items-center flex justify-center "
+      className="w-8  h-8 rounded-full fixed pb-2  bg-transparent border-2 text-white font-bold items-center flex justify-center "
       style={{ x, y, zIndex: -10 }}
     >
       .
