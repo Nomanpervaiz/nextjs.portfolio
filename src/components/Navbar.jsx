@@ -56,7 +56,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link href="/about" className={getLinkClass("/about")}>
-            About Me
+            About
           </Link>
           <Link href="/projects" className={getLinkClass("/projects")}>
             Projects
@@ -126,7 +126,7 @@ export default function Navbar() {
                   href="/about"
                   className={getLinkClass("/about")}
                 >
-                  About Me
+                  About
                 </Link>
                 <Link
                   onClick={() => setMobileMenuOpen(false)}

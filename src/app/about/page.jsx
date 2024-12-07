@@ -1,6 +1,10 @@
 import Image from "next/image";
 import mySelf from "@/assets/duplicateme.jpg";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { Button } from "@/components/ui/moving-border";
+import { FaArrowRight } from "react-icons/fa";
+import CvButton from "@/components/CvButton";
+
 
 function About() {
 
@@ -31,6 +35,8 @@ function About() {
           quote: "Aside from coding, I enjoy exploring new places and maintaining a balanced lifestyle through fitness."
         }
       ];
+
+      
       
 
   return (
@@ -42,21 +48,19 @@ function About() {
         </div>
         <div className="p-6 xl:mx-10 lg:p-10  border-b border-gray-400"></div>
 
-        <div className="grid lg:grid-cols-2 h-fit relative ">
-          <div className="text-center  flex flex-col justify-center lg:text-left xl:px-10 ">
+        <div className="grid pt-10 lg:grid-cols-2 h-fit relative ">
+          <div className="text-center sm:text-left  flex flex-col justify-center lg:text-left xl:px-10 ">
             <h2 className="font-bold text-4xl py-4 lg:py-4 lg:text-5xl text-white">
               Let&apos;s get know <br /> about me closer
             </h2>
-            <p className="text-gray-100 font-bold text-md md:px-10 lg:px-0 lg:text-base">
-              Noman is a full-stack software developer specializing in modern,
-              responsive web applications. His portfolio showcases a variety of
-              projects, including eCommerce platforms and interactive websites.
-              Proficient in React.js, Next.js, and Firebase, Noman effectively
-              integrates front-end and back-end solutions to create seamless
-              user experiences.
+            <p className="text-gray-100 text-center sm:text-left md:text-left font-bold text-md md:px-0 lg:px-0 lg:text-base">
+            Noman is a proficient full-stack software developer with expertise in MongoDB, React Native, Node.js, React.js, Next.js, Firebase, and JavaScript. He specializes in developing modern, responsive web and mobile applications, integrating both front-end and back-end solutions to create seamless user experiences. His portfolio includes eCommerce platforms, interactive websites, and mobile apps, showcasing his versatility and technical skills.
             </p>
+            <div className="mt-5 flex justify-center lg:justify-start">
+         <CvButton/>
           </div>
-          <div className="flex  items-center justify-center py-10 sm:p-20 lg:p-10 lg:items-end  lg:justify-end">
+          </div>
+          <div className="flex  items-center justify-center py-10 sm:p-20 lg:p-6 lg:items-end  lg:justify-end">
             <Image
               src={mySelf}
               alt="Personal picture"
