@@ -18,7 +18,6 @@ function AboutSection() {
         src={vectorImg}
         alt="Decorative Vector Background"
         className="absolute lg:-left-28 lg:-top-10 xl:bottom-10   md:top-10 sm:bottom-[550px] lg:w-2/5 w-full "
-        layout="intrinsic"
         priority={true}
       />
       <div className="text-center  flex flex-col justify-center  xl:text-left xl:px-10 ">
@@ -49,7 +48,6 @@ function AboutSection() {
           src={mySelf}
           alt="Personal picture"
           className="rounded-xl w-full md:w-1/2 lg:w-full xl:w-3/4 "
-          layout="intrinsic"
           priority={true}
         />
       </div>

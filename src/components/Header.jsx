@@ -16,8 +16,9 @@ function Header() {
       <div
         className="h-full  px-6 lg:px-36 relative container mx-auto text-white"
       >
+
         <Spotlight
-          className="lg:-top-40 lg:right-0  md:-top-52 md:-right-72 -top-40 "
+          className="lg:-top-40 lg:right-0 w-full  -top-24 "
           fill="white"
         />
 

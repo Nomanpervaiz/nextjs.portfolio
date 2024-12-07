@@ -1,6 +1,5 @@
 import Image from "next/image";
 import mySelf from "@/assets/duplicateme.jpg";
-import { Spotlight } from "@/components/ui/SpotLight"
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 function About() {
@@ -36,11 +35,7 @@ function About() {
 
   return (
     <section className="pt-10 pb-10 lg:pt-20 px-10 lg:px-36">
-      <div className="container mx-auto relative">
-        <Spotlight
-          className=" lg:-top-32 -top-40 left-16 lg:left-0 "
-          fill="white"
-        />
+      <div className="container mx-auto">
         <div className="text-white xl:px-10 ">
           <h1 className="text-4xl py-2 font-semibold lg:text-6xl">About Me</h1>
           <p className=" text-gray-300">Litle Brief About Myself</p>
@@ -66,7 +61,6 @@ function About() {
               src={mySelf}
               alt="Personal picture"
               className="rounded-xl w-full md:w-1/2 lg:w-3/4 "
-              layout="intrinsic"
               priority={true}
             />
           </div>
