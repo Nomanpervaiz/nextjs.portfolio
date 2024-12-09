@@ -5,7 +5,7 @@ import { Button } from "./ui/moving-border"
 function CvButton() {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "https://drive.google.com/file/d/1cgdsVUK95_noqBJLJuAb-znvdXLSgyvP/view?usp=drive_link";
+        link.href = "https://drive.google.com/file/d/1acfzxY5UFCqgkvfbaK5JZm0jnmnGRPuu/view?usp=drive_link";
         link.download = "Noman_CV.pdf"; 
         link.click();
       };
