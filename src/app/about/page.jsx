@@ -54,7 +54,7 @@ function About() {
               Let&apos;s get know <br /> about me closer
             </h2>
             <p className="text-gray-100 text-center sm:text-left md:text-left font-bold text-md md:px-0 lg:px-0 lg:text-base">
-            Noman is a proficient full-stack software developer with expertise in MongoDB, React Native, Node.js, React.js, Next.js, Firebase, and JavaScript. He specializes in developing modern, responsive web and mobile applications, integrating both front-end and back-end solutions to create seamless user experiences. His portfolio includes eCommerce platforms, interactive websites, and mobile apps, showcasing his versatility and technical skills.
+            Noman is a proficient full-stack software developer with expertise in MongoDB, Express.js, Node.js, React Native, React.js, Next.js, Firebase, and JavaScript. He specializes in developing modern, responsive web and mobile applications, integrating both front-end and back-end solutions to create seamless user experiences. His portfolio includes eCommerce platforms, interactive websites, and mobile apps, showcasing his versatility and technical skills
             </p>
             <div className="mt-5 flex justify-center lg:justify-start">
          <CvButton/>
