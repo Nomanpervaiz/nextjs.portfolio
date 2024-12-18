@@ -28,7 +28,7 @@ function AboutSection() {
           Noman is a full-stack software developer specializing in modern,
           responsive web applications. His portfolio showcases a variety of
           projects, including eCommerce platforms and interactive websites.
-          Proficient in React.js, Next.js, , Node.js, , Firebase and MongoDB Noman effectively
+          Proficient in React.js, Next.js, , Node.js, Firebase and MongoDB Noman effectively
           integrates front-end and back-end solutions to create seamless
           user experiences.
         </p>
