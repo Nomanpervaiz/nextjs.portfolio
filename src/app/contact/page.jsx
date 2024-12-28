@@ -34,7 +34,7 @@ function Contact() {
             icon={<Linkedin className="w-6 h-6" />}
             title="LinkedIn"
             content="Noman Pervaiz"
-            href="https://www.linkedin.com/in/noman-pervaiz-b93aa62b"
+            href="https://www.linkedin.com/in/noman-pervaiz-b93aa62b3"
           />
           <ContactCard
             icon={<Github className="w-6 h-6" />}

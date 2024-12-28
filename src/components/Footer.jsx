@@ -48,7 +48,7 @@ function Footer() {
                     <h2 className="text-md text-gray-400 px-4">Follow me on:</h2>
 
                     <Link
-                        href={"https://www.linkedin.com/in/noman-pervaiz-b93aa62b"}
+                        href={"https://www.linkedin.com/in/noman-pervaiz-b93aa62b3"}
                         className="ml-3 text-gray-500"
                     >
                         <svg
