@@ -40,11 +40,11 @@ function Contact() {
           
           <motion.div variants={itemVariants} className="text-center mb-2">
             <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 mb-4 ">
-              Let's Connect
+            Let&apos;s Connect
             </h1>
          
             <p className="text-gray-200 text-lg max-w-2xl mx-auto">
-              Have a project in mind or just want to chat? I'm always open to discussing new opportunities and ideas.
+              Have a project in mind or just want to chat? Let&apos;s Connect always open to discussing new opportunities and ideas.
             </p>
           </motion.div>
           <motion.div
