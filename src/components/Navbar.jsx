@@ -16,7 +16,7 @@ export default function Navbar() {
     } transition-colors duration-300`;
 
   return (
-    <header className="h-28 flex justify-center w-full">
+    <header className=" flex justify-center w-full ">
       <nav
         aria-label="Global"
         className="flex z-10 fixed lg:w-1/2 lg:rounded-full lg:bg-black/[0.90] container items-center lg:justify-center lg:p-8 lg:my-10 p-6 justify-between lg:px-4"

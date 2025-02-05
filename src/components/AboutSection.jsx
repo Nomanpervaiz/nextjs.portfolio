@@ -36,7 +36,7 @@ function AboutSection() {
           <Button
             width={"w-48 sm:w-52"}
             borderRadius="1.75rem"
-            className={"bg-orange-400 text-white "}
+            className={"bg-orange-500 text-white "}
             onClick={goToAbout}
           >
             Discover More About Me <FaArrowRight className="mx-1" />
@@ -47,7 +47,7 @@ function AboutSection() {
         <Image
           src={mySelf}
           alt="Personal picture"
-          className="rounded-xl w-full md:w-1/2 lg:w-full xl:w-3/4 "
+          className="rounded-xl w-full md:w-1/2 lg:w-full xl:w-10/12 "
           priority={true}
         />
       </div>

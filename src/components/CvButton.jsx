@@ -12,7 +12,7 @@ function CvButton() {
   return (
     <Button
               borderRadius="1.75rem"
-              className={"bg-orange-400 text-white  "}
+              className={"bg-orange-500 text-white  "}
               onClick={handleDownload}
             >
               Download CV <FaArrowRight className="mx-1" />

@@ -26,7 +26,7 @@ function ProjectSection() {
       <div className="flex justify-center my-10">
         <Button
           borderRadius="1.75rem"
-          className={"bg-orange-400 text-white  "}
+          className={"bg-orange-500 text-white  "}
           onClick={goToProject}
         >
           Explore Work <FaArrowRight className="mx-1" />
