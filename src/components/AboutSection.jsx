@@ -12,8 +12,9 @@ function AboutSection() {
         router.push("/about")
     }
   return (
-    <section className="pt-10 lg:pt-20 px-10 lg:px-36">
-    <div className="lg:grid container mx-auto lg:grid-cols-2 h-fit relative">
+    <section className="pt-10 relative lg:pt-20 px-10 lg:px-36 ">
+       <div className="absolute inset-0 bg-grid-white/[0.02]  bg-[size:50px_50px] " />
+    <div className="lg:grid  container mx-auto lg:grid-cols-2 h-fit relative">
       <Image
         src={vectorImg}
         alt="Decorative Vector Background"

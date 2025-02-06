@@ -10,7 +10,9 @@ function ProjectSection() {
           router.push("/projects")
     }
   return (
-    <section className="pt-10 pb-10 lg:pt-20 px-5 sm:px-10 lg:px-36">
+    <section className="pt-10 relative pb-10 lg:pt-20 px-5 sm:px-10 lg:px-36">
+             <div className="absolute inset-0 bg-grid-white/[0.02]  bg-[size:50px_50px] " />
+      
     <div className="container mx-auto relative">
       <div className="text-white p-10 text-center">
         <h2 className="text-4xl py-2  font-semibold lg:text-6xl">

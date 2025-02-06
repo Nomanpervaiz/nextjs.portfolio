@@ -7,37 +7,53 @@ import CvButton from "@/components/CvButton";
 import { motion } from "framer-motion";
 
 function About() {
+  const skills = [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Firebase",
+    "MongoDB",
+    "JavaScript",
+    "TypeScript",
+    "HTML/CSS",
+    "Tailwind-CSS",
+    "Git",
+  ];
   const aboutMe = [
     {
       title: "Personal Background",
       name: "Noman Pervaiz",
-      quote: "Passionate about creating innovative web solutions that bridge design and functionality."
+      quote:
+        "Passionate about creating innovative web solutions that bridge design and functionality.",
     },
     {
       title: "Professional Experience",
       name: "Full-Stack Web Developer",
-      quote: "With years of experience in both front-end and back-end, I bring ideas to life with seamless user experiences."
+      quote:
+        "With years of experience in both front-end and back-end, I bring ideas to life with seamless user experiences.",
     },
     {
       title: "Core Skills",
       name: "React, Next.js, Firebase",
-      quote: "Proficient in modern frameworks and libraries, I continuously push the boundaries of web development."
+      quote:
+        "Proficient in modern frameworks and libraries, I continuously push the boundaries of web development.",
     },
     {
       title: "Career Goals",
       name: "Digital Innovation",
-      quote: "Driven to build digital solutions that empower businesses to thrive in the ever-evolving online landscape."
+      quote:
+        "Driven to build digital solutions that empower businesses to thrive in the ever-evolving online landscape.",
     },
     {
       title: "Hobbies & Interests",
       name: "Coding, Fitness, Traveling",
-      quote: "Aside from coding, I enjoy exploring new places and maintaining a balanced lifestyle through fitness."
-    }
+      quote:
+        "Aside from coding, I enjoy exploring new places and maintaining a balanced lifestyle through fitness.",
+    },
   ];
 
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-background to-background/80 overflow-hidden  px-6 lg:px-36 pb-20 pt-32 lg:pt-48">
-
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="h-[500px] w-[500px] bg-orange-500/10 rounded-full blur-3xl" />
@@ -76,9 +92,17 @@ function About() {
             <div className="relative">
               <div className="absolute  bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg " />
               <p className="relative  rounded-lg py-2 text-gray-100 font-medium text-md lg:text-base leading-relaxed">
-                Noman is a proficient full-stack software developer with expertise in MongoDB, Express.js, Node.js, React Native, React.js, Next.js, Firebase, and JavaScript. He specializes in developing modern, responsive web and mobile applications, integrating both front-end and back-end solutions to create seamless user experiences. His portfolio includes eCommerce platforms, interactive websites, and mobile apps, showcasing his versatility and technical skills.
+                Noman is a proficient full-stack software developer with
+                expertise in MongoDB, Express.js, Node.js, React Native,
+                React.js, Next.js, Firebase, and JavaScript. He specializes in
+                developing modern, responsive web and mobile applications,
+                integrating both front-end and back-end solutions to create
+                seamless user experiences. His portfolio includes eCommerce
+                platforms, interactive websites, and mobile apps, showcasing his
+                versatility and technical skills.
               </p>
             </div>
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -96,7 +120,7 @@ function About() {
             className="flex items-center justify-center lg:items-center lg:justify-end relative"
           >
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl blur-2xl opacity-10 transform rotate-6" />
-            <div className="relative">
+            <div className="relative xl:px-10">
               <div className="absolute bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl blur opacity-20" />
               <Image
                 src={mySelf}
@@ -112,10 +136,62 @@ function About() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="mt-20 text-white xl:px-10"
+          className="mt-20 text-white xl:px-0"
         >
-          <div className="relative">
-            <div className="absolute -inset-2 bg-gradient-to-r from-orange-500/20 to-orange-600/20 rounded-2xl blur-3xl opacity-20" />
+          <div className="xl:px-10">
+            <h4 className="text-white font-semibold text-xl md:text-3xl py-4">
+              About Journey
+            </h4>
+            <p className="text-white/80 text-sm py-2">
+              My journey in the tech world began after completing my
+              intermediate studies in 2022. Initially unsure of which path to
+              choose, I soon discovered a deep interest in technology and
+              programming. Fascinated by the endless possibilities in this
+              field, I dedicated myself to mastering web and mobile development.
+              Through hard work and continuous learning, I became proficient in
+              the MERN stack, enabling me to build modern and dynamic
+              applications.
+            </p>
+            <p className="text-white/80 text-sm py-2">
+              Currently, I am honored to be an{" "}
+              <span className="text-white font-bold">assistant teacher</span> at
+              Saylani Mass IT Training (SMIT), where I mentor and guide aspiring
+              developers. This role has not only strengthened my technical
+              skills but also helped me develop valuable soft skills such as
+              effective communication, the ability to explain complex concepts
+              in simple terms, problem-solving, and collaborative teamwork.
+              These experiences have fueled my passion for both technology and
+              teaching, making me a better developer and mentor.
+            </p>
+            <h4 className="text-white font-semibold text-xl py-4">
+              Skills
+            </h4>
+            <div className="flex flex-wrap gap-2 justify-center xl:justify-start">
+              {skills.map((skill, index) => (
+                <span
+                  key={index}
+                  className="px-4 py-2 bg-white/10 text-white rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
+              <span className="px-4 py-2 bg-white/10 text-white rounded-full text-sm">
+                Communication
+              </span>
+              <span className="px-4 py-2 bg-white/10 text-white rounded-full text-sm">
+                Problem-Solving
+              </span>
+              <span className="px-4 py-2 bg-white/10 text-white rounded-full text-sm">
+                Concept Explanation
+              </span>
+              <span className="px-4 py-2 bg-white/10 text-white rounded-full text-sm">
+                Team Collaboration
+              </span>
+            </div>
+          </div>
+
+          <div className="relative xl:px-10 flex justify-center">
+            <div className="absolute -inset-2 bg-gradient-to-r from-orange-500/20 to-orange-600/20 rounded-2xl blur-3xl opacity-20 " />
             <InfiniteMovingCards
               items={aboutMe}
               direction="right"
