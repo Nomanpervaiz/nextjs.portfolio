@@ -7,6 +7,7 @@ const filterWork = myWork.filter((workObj)=> workObj.id <= 4)
 function MapCard({limit ,prefix = "default"}) {
 
     const workItems = limit ? filterWork : myWork;
+    
   return (
     <>
       {

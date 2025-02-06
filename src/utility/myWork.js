@@ -6,6 +6,7 @@ import PassGenThumbnail from "../assets/Screenshot (41).png"
 import portfolioThumbnail from "../assets/Screenshot (43).png"
 import RepairThumbnail from "../assets/Screenshot (38).png"
 import CalculatorThumbnail from "../assets/Screenshot (40).png"
+import MernTodoThumbnail from "../assets/Screenshot (63).png"
 
 
 export const myWork = [
@@ -57,6 +58,13 @@ export const myWork = [
         thumbnail: CalculatorThumbnail,
         description: "Built an interactive calculator tool to perform various calculations with a user-friendly interface, leveraging JavaScript for real-time functionality.",
         link: "https://calculator-bynomanpervaiz.netlify.app"
+    },
+    {
+        id: 8,
+        name: "Mern-Stack Todo",
+        thumbnail: MernTodoThumbnail,
+        description: "A dynamic to-do list application built with the MERN stack, allowing users to add, update, and delete tasks while ensuring a responsive user experience.",
+        link: "https://mern-todo-frontend-tan.vercel.app/"
     }
     
     

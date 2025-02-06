@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-background to-background/80 overflow-hidden  px-6 lg:px-36 pb-20 pt-32 lg:pt-48">
-      {/* Background Elements */}
+
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="h-[500px] w-[500px] bg-orange-500/10 rounded-full blur-3xl" />
